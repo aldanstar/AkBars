@@ -38926,7 +38926,7 @@
         </TargetRecord>
 
         <PointRecord ID="0000176f" TimeStamp="2023-09-12T16:14:57">
-            <Name>1187</Name>
+            <Name>1287</Name>
             <Code>sloc040</Code>
             <Method>AverageMeasurements</Method>
             <SurveyMethod>Fix</SurveyMethod>
@@ -38954,6 +38954,10 @@
                 <East>3934.5230110052</East>
                 <Elevation>-0.36125158083436</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 10:21:38 13/9/2023</Note>
+                <Note>Прежнее имя точки 1187</Note>
+            </Notes>
         </PointRecord>
 
         <PointRecord ID="00001773" TimeStamp="2023-09-12T16:23:26">
@@ -39877,6 +39881,842 @@
                 <North>290.78588335256</North>
                 <East>4397.5684189313</East>
                 <Elevation>0.71844825518351</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <InstrumentRecord ID="000017fc" TimeStamp="2023-09-13T09:11:14">
+            <Type>TrimbleVXandSSeries</Type>
+            <RefractiveIndex>273.64570458809</RefractiveIndex>
+            <CarrierWavelength>79.170232716506</CarrierWavelength>
+            <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            <SetHorizontalCircleMode>SetToAzimuth</SetHorizontalCircleMode>
+            <Servo>HorizontalAndVerticalAngle</Servo>
+            <AnglesOnlyRate>2</AnglesOnlyRate>
+            <TurnToZero>false</TurnToZero>
+            <AverageMeasurements>5</AverageMeasurements>
+            <HorizontalAnglePrecision>0.00055555555556</HorizontalAnglePrecision>
+            <VerticalAnglePrecision>0.00055555555556</VerticalAnglePrecision>
+            <EDMPrecision>0.002</EDMPrecision>
+            <EDMppm>2</EDMppm>
+            <InstrumentPrecisionsSource>FromInstrument</InstrumentPrecisionsSource>
+            <CenteringError>0</CenteringError>
+            <BacksightCenteringError>0.003</BacksightCenteringError>
+            <Model>S7 2 DR Plus</Model>
+            <Serial>37330675</Serial>
+            <FirmwareVersion>H2.8.17</FirmwareVersion>
+            <UserDefinedName>37330675</UserDefinedName>
+            <InstrumentAppliedHorizontalCollimation>0</InstrumentAppliedHorizontalCollimation>
+            <InstrumentAppliedVerticalCollimation>0</InstrumentAppliedVerticalCollimation>
+            <TrunionAxisTiltCorrection>0</TrunionAxisTiltCorrection>
+            <InstrumentAppliedAutolockHorizontalCollimation>0</InstrumentAppliedAutolockHorizontalCollimation>
+            <InstrumentAppliedAutolockVerticalCollimation>0</InstrumentAppliedAutolockVerticalCollimation>
+            <InstrumentAppliedEDMConstant>0</InstrumentAppliedEDMConstant>
+            <AtmosphericCorrectionCoefficient>293.682</AtmosphericCorrectionCoefficient>
+        </InstrumentRecord>
+
+        <PointRecord ID="00001803" TimeStamp="2023-09-13T09:11:54">
+            <Name>sloc045</Name>
+            <Code>n035</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>100</North>
+                <East>4500</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <AtmosphereRecord ID="00001807" TimeStamp="2023-09-13T09:35:50">
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+            <PPM>71.095220066929</PPM>
+            <ApplyEarthCurvatureCorrection>true</ApplyEarthCurvatureCorrection>
+            <ApplyRefractionCorrection>true</ApplyRefractionCorrection>
+            <RefractionCoefficient>0.142</RefractionCoefficient>
+            <PressureInputMethod>KeyedIn</PressureInputMethod>
+            <ApplyPPMToRawDistances>true</ApplyPPMToRawDistances>
+        </AtmosphereRecord>
+
+        <StationRecord ID="00001808" TimeStamp="2023-09-13T09:35:50">
+            <StationName>sloc045</StationName>
+            <TheodoliteHeight>2</TheodoliteHeight>
+            <RawTheodoliteHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTheodoliteHeight>
+            <InstrumentID>000017fc</InstrumentID>
+            <AtmosphereID>00001807</AtmosphereID>
+            <NumberOfBacksightMeasurements>1</NumberOfBacksightMeasurements>
+            <NumberOfBacksightPoints>1</NumberOfBacksightPoints>
+            <ScaleFactor>1</ScaleFactor>
+            <ScaleType>Fixed</ScaleType>
+            <ScaleFactorStandardError/>
+            <StationType>StationSetup</StationType>
+        </StationRecord>
+
+        <BackBearingRecord ID="00001809" TimeStamp="2023-09-13T09:35:50">
+            <StationRecordID>00001808</StationRecordID>
+            <Station>sloc045</Station>
+            <BackSight>n035</BackSight>
+            <Face1HorizontalCircle>270.35362409034</Face1HorizontalCircle>
+            <Face2HorizontalCircle/>
+            <OrientationCorrection>0</OrientationCorrection>
+            <OrientationCorrectionStandardError/>
+        </BackBearingRecord>
+
+        <TargetRecord ID="0000180a" TimeStamp="2023-09-13T09:35:50">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>2.135</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2.135</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="0000180b" TimeStamp="2023-09-13T09:35:50">
+            <Name>n035</Name>
+            <Code/>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>270.35362409034</HorizontalCircle>
+                <VerticalCircle>86.4834417</VerticalCircle>
+                <EDMDistance>6.996764</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00750561047226</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00046815578452</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00090068528697</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001808</StationID>
+            <BackBearingID>00001809</BackBearingID>
+            <TargetID>0000180a</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>100.04323099452</North>
+                <East>4492.9956071359</East>
+                <Elevation>0.29431696365338</Elevation>
+            </ComputedGrid>
+
+            <ObservationPolarDeltas>
+                <Azimuth/>
+                <HorizontalDistance>1389.3411952425</HorizontalDistance>
+                <VerticalDistance>0.02195653097022</VerticalDistance>
+            </ObservationPolarDeltas>
+        </PointRecord>
+
+        <PointRecord ID="00001810" TimeStamp="2023-09-13T09:36:37">
+            <Name>sloc045-n035</Name>
+            <Code>sloc045</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>270.39229074</HorizontalCircle>
+                <VerticalCircle>86.48107632</VerticalCircle>
+                <EDMDistance>6.989342</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.0053497623995</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.0006205472134</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00103916793245</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001808</StationID>
+            <BackBearingID>00001809</BackBearingID>
+            <TargetID>0000180a</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>100.04790699065</North>
+                <East>4493.0030836057</East>
+                <Elevation>0.29414978324943</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <TargetRecord ID="00001814" TimeStamp="2023-09-13T09:57:40">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001815" TimeStamp="2023-09-13T09:57:40">
+            <Name>8138</Name>
+            <Code>sloc045</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>313.67938842</HorizontalCircle>
+                <VerticalCircle>90.03802626</VerticalCircle>
+                <EDMDistance>71.807744</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.0008150565217</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00029001171423</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00095865398976</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001808</StationID>
+            <BackBearingID>00001809</BackBearingID>
+            <TargetID>00001814</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>149.72790964357</North>
+                <East>4447.9252225516</East>
+                <Elevation>0.8626845682885</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <InstrumentRecord ID="0000181a" TimeStamp="2023-09-13T10:06:43">
+            <Type>TrimbleVXandSSeries</Type>
+            <RefractiveIndex>273.64570458809</RefractiveIndex>
+            <CarrierWavelength>79.170232716506</CarrierWavelength>
+            <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            <SetHorizontalCircleMode>SetToAzimuth</SetHorizontalCircleMode>
+            <Servo>HorizontalAndVerticalAngle</Servo>
+            <AnglesOnlyRate>2</AnglesOnlyRate>
+            <TurnToZero>false</TurnToZero>
+            <AverageMeasurements>5</AverageMeasurements>
+            <HorizontalAnglePrecision>0.00055555555556</HorizontalAnglePrecision>
+            <VerticalAnglePrecision>0.00055555555556</VerticalAnglePrecision>
+            <EDMPrecision>0.002</EDMPrecision>
+            <EDMppm>2</EDMppm>
+            <InstrumentPrecisionsSource>FromInstrument</InstrumentPrecisionsSource>
+            <CenteringError>0</CenteringError>
+            <BacksightCenteringError>0.003</BacksightCenteringError>
+            <Model>S7 2 DR Plus</Model>
+            <Serial>37330675</Serial>
+            <FirmwareVersion>H2.8.17</FirmwareVersion>
+            <UserDefinedName>37330675</UserDefinedName>
+            <InstrumentAppliedHorizontalCollimation>0</InstrumentAppliedHorizontalCollimation>
+            <InstrumentAppliedVerticalCollimation>0</InstrumentAppliedVerticalCollimation>
+            <TrunionAxisTiltCorrection>0</TrunionAxisTiltCorrection>
+            <InstrumentAppliedAutolockHorizontalCollimation>0</InstrumentAppliedAutolockHorizontalCollimation>
+            <InstrumentAppliedAutolockVerticalCollimation>0</InstrumentAppliedAutolockVerticalCollimation>
+            <InstrumentAppliedEDMConstant>0</InstrumentAppliedEDMConstant>
+            <AtmosphericCorrectionCoefficient>293.682</AtmosphericCorrectionCoefficient>
+        </InstrumentRecord>
+
+        <PointRecord ID="00001821" TimeStamp="2023-09-13T10:07:05">
+            <Name>sloc046</Name>
+            <Code>n025</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>300</North>
+                <East>4600</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <AtmosphereRecord ID="00001825" TimeStamp="2023-09-13T10:07:46">
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+            <PPM>71.095220066929</PPM>
+            <ApplyEarthCurvatureCorrection>true</ApplyEarthCurvatureCorrection>
+            <ApplyRefractionCorrection>true</ApplyRefractionCorrection>
+            <RefractionCoefficient>0.142</RefractionCoefficient>
+            <PressureInputMethod>KeyedIn</PressureInputMethod>
+            <ApplyPPMToRawDistances>true</ApplyPPMToRawDistances>
+        </AtmosphereRecord>
+
+        <StationRecord ID="00001826" TimeStamp="2023-09-13T10:07:46">
+            <StationName>sloc046</StationName>
+            <TheodoliteHeight>2</TheodoliteHeight>
+            <RawTheodoliteHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTheodoliteHeight>
+            <InstrumentID>0000181a</InstrumentID>
+            <AtmosphereID>00001825</AtmosphereID>
+            <NumberOfBacksightMeasurements>1</NumberOfBacksightMeasurements>
+            <NumberOfBacksightPoints>1</NumberOfBacksightPoints>
+            <ScaleFactor>1</ScaleFactor>
+            <ScaleType>Fixed</ScaleType>
+            <ScaleFactorStandardError/>
+            <StationType>StationSetup</StationType>
+        </StationRecord>
+
+        <BackBearingRecord ID="00001827" TimeStamp="2023-09-13T10:07:46">
+            <StationRecordID>00001826</StationRecordID>
+            <Station>sloc046</Station>
+            <BackSight>N025</BackSight>
+            <Face1HorizontalCircle>3.3740100488826</Face1HorizontalCircle>
+            <Face2HorizontalCircle/>
+            <OrientationCorrection>0</OrientationCorrection>
+            <OrientationCorrectionStandardError/>
+        </BackBearingRecord>
+
+        <TargetRecord ID="00001828" TimeStamp="2023-09-13T10:07:46">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>2.135</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2.135</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001829" TimeStamp="2023-09-13T10:07:46">
+            <Name>N025</Name>
+            <Code/>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>3.3740100488826</HorizontalCircle>
+                <VerticalCircle>81.7895304</VerticalCircle>
+                <EDMDistance>3.07735</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.01712614168349</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00322599801968</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.0012608528845</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001826</StationID>
+            <BackBearingID>00001827</BackBearingID>
+            <TargetID>00001828</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>303.05075207609</North>
+                <East>4600.1798593703</East>
+                <Elevation>0.30479322875852</Elevation>
+            </ComputedGrid>
+
+            <ObservationPolarDeltas>
+                <Azimuth/>
+                <HorizontalDistance>6194877.4658457</HorizontalDistance>
+                <VerticalDistance>92.353906768942</VerticalDistance>
+            </ObservationPolarDeltas>
+        </PointRecord>
+
+        <PointRecord ID="0000182e" TimeStamp="2023-09-13T10:08:35">
+            <Name>sloc046-n025</Name>
+            <Code>sloc046</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>3.36051414</HorizontalCircle>
+                <VerticalCircle>81.7840701</VerticalCircle>
+                <EDMDistance>3.075402</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00926013526425</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00334628875468</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00098271053704</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001826</StationID>
+            <BackBearingID>00001827</BackBearingID>
+            <TargetID>00001828</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>303.04882248268</North>
+                <East>4600.1790249793</East>
+                <Elevation>0.3048053062224</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <TargetRecord ID="00001835" TimeStamp="2023-09-13T10:33:35">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001836" TimeStamp="2023-09-13T10:33:37">
+            <Name>8338</Name>
+            <Code>sloc046</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>155.92566762</HorizontalCircle>
+                <VerticalCircle>91.85902236</VerticalCircle>
+                <EDMDistance>9.923182</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00325766157085</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.0002484519975</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00103003397926</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001826</StationID>
+            <BackBearingID>00001827</BackBearingID>
+            <TargetID>00001835</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>290.91835563431</North>
+                <East>4604.0575343057</East>
+                <Elevation>0.58800717235895</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <InstrumentRecord ID="0000183b" TimeStamp="2023-09-13T10:42:06">
+            <Type>TrimbleVXandSSeries</Type>
+            <RefractiveIndex>273.64570458809</RefractiveIndex>
+            <CarrierWavelength>79.170232716506</CarrierWavelength>
+            <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            <SetHorizontalCircleMode>SetToAzimuth</SetHorizontalCircleMode>
+            <Servo>HorizontalAndVerticalAngle</Servo>
+            <AnglesOnlyRate>2</AnglesOnlyRate>
+            <TurnToZero>false</TurnToZero>
+            <AverageMeasurements>5</AverageMeasurements>
+            <HorizontalAnglePrecision>0.00055555555556</HorizontalAnglePrecision>
+            <VerticalAnglePrecision>0.00055555555556</VerticalAnglePrecision>
+            <EDMPrecision>0.002</EDMPrecision>
+            <EDMppm>2</EDMppm>
+            <InstrumentPrecisionsSource>FromInstrument</InstrumentPrecisionsSource>
+            <CenteringError>0</CenteringError>
+            <BacksightCenteringError>0.003</BacksightCenteringError>
+            <Model>S7 2 DR Plus</Model>
+            <Serial>37330675</Serial>
+            <FirmwareVersion>H2.8.17</FirmwareVersion>
+            <UserDefinedName>37330675</UserDefinedName>
+            <InstrumentAppliedHorizontalCollimation>0</InstrumentAppliedHorizontalCollimation>
+            <InstrumentAppliedVerticalCollimation>0</InstrumentAppliedVerticalCollimation>
+            <TrunionAxisTiltCorrection>0</TrunionAxisTiltCorrection>
+            <InstrumentAppliedAutolockHorizontalCollimation>0</InstrumentAppliedAutolockHorizontalCollimation>
+            <InstrumentAppliedAutolockVerticalCollimation>0</InstrumentAppliedAutolockVerticalCollimation>
+            <InstrumentAppliedEDMConstant>0</InstrumentAppliedEDMConstant>
+            <AtmosphericCorrectionCoefficient>293.682</AtmosphericCorrectionCoefficient>
+        </InstrumentRecord>
+
+        <PointRecord ID="00001842" TimeStamp="2023-09-13T10:42:30">
+            <Name>sloc047</Name>
+            <Code>n035</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>100</North>
+                <East>4700</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <AtmosphereRecord ID="00001846" TimeStamp="2023-09-13T10:43:45">
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+            <PPM>71.095220066929</PPM>
+            <ApplyEarthCurvatureCorrection>true</ApplyEarthCurvatureCorrection>
+            <ApplyRefractionCorrection>true</ApplyRefractionCorrection>
+            <RefractionCoefficient>0.142</RefractionCoefficient>
+            <PressureInputMethod>KeyedIn</PressureInputMethod>
+            <ApplyPPMToRawDistances>true</ApplyPPMToRawDistances>
+        </AtmosphereRecord>
+
+        <StationRecord ID="00001847" TimeStamp="2023-09-13T10:43:45">
+            <StationName>sloc047</StationName>
+            <TheodoliteHeight>2</TheodoliteHeight>
+            <RawTheodoliteHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTheodoliteHeight>
+            <InstrumentID>0000183b</InstrumentID>
+            <AtmosphereID>00001846</AtmosphereID>
+            <NumberOfBacksightMeasurements>1</NumberOfBacksightMeasurements>
+            <NumberOfBacksightPoints>1</NumberOfBacksightPoints>
+            <ScaleFactor>1</ScaleFactor>
+            <ScaleType>Fixed</ScaleType>
+            <ScaleFactorStandardError/>
+            <StationType>StationSetup</StationType>
+        </StationRecord>
+
+        <BackBearingRecord ID="00001848" TimeStamp="2023-09-13T10:43:45">
+            <StationRecordID>00001847</StationRecordID>
+            <Station>sloc047</Station>
+            <BackSight>n035</BackSight>
+            <Face1HorizontalCircle>270.30942199988</Face1HorizontalCircle>
+            <Face2HorizontalCircle/>
+            <OrientationCorrection>0</OrientationCorrection>
+            <OrientationCorrectionStandardError/>
+        </BackBearingRecord>
+
+        <TargetRecord ID="00001849" TimeStamp="2023-09-13T10:43:45">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>2.135</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2.135</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="0000184a" TimeStamp="2023-09-13T10:43:45">
+            <Name>n035</Name>
+            <Code/>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>270.30942199988</HorizontalCircle>
+                <VerticalCircle>86.4780426</VerticalCircle>
+                <EDMDistance>6.674952</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.0183660050333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00063347749261</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00148477944513</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001847</StationID>
+            <BackBearingID>00001848</BackBearingID>
+            <TargetID>00001849</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>100.03608764349</North>
+                <East>4693.3177034365</East>
+                <Elevation>0.27520432312295</Elevation>
+            </ComputedGrid>
+
+            <ObservationPolarDeltas>
+                <Azimuth/>
+                <HorizontalDistance>1589.1326206925</HorizontalDistance>
+                <VerticalDistance>0.04106916684404</VerticalDistance>
+            </ObservationPolarDeltas>
+        </PointRecord>
+
+        <PointRecord ID="0000184f" TimeStamp="2023-09-13T10:44:41">
+            <Name>sloc047-n035</Name>
+            <Code>sloc047</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>270.3353724</HorizontalCircle>
+                <VerticalCircle>86.47614126</VerticalCircle>
+                <EDMDistance>6.672454</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00293198947436</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00028417404044</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00113729064019</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001847</StationID>
+            <BackBearingID>00001848</BackBearingID>
+            <TargetID>00001849</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>100.0390994724</North>
+                <East>4693.3202341076</East>
+                <Elevation>0.27527193895817</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <TargetRecord ID="00001853" TimeStamp="2023-09-13T11:09:16">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001854" TimeStamp="2023-09-13T11:09:17">
+            <Name>9138</Name>
+            <Code>sloc047</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>328.84133508</HorizontalCircle>
+                <VerticalCircle>90.05490396</VerticalCircle>
+                <EDMDistance>70.137054</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00035989329037</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00026770725832</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00095715967919</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001847</StationID>
+            <BackBearingID>00001848</BackBearingID>
+            <TargetID>00001853</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>160.1832496739</North>
+                <East>4663.6110455389</East>
+                <Elevation>0.84311508090407</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <InstrumentRecord ID="00001859" TimeStamp="2023-09-13T11:17:46">
+            <Type>TrimbleVXandSSeries</Type>
+            <RefractiveIndex>273.64570458809</RefractiveIndex>
+            <CarrierWavelength>79.170232716506</CarrierWavelength>
+            <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            <SetHorizontalCircleMode>SetToAzimuth</SetHorizontalCircleMode>
+            <Servo>HorizontalAndVerticalAngle</Servo>
+            <AnglesOnlyRate>2</AnglesOnlyRate>
+            <TurnToZero>false</TurnToZero>
+            <AverageMeasurements>5</AverageMeasurements>
+            <HorizontalAnglePrecision>0.00055555555556</HorizontalAnglePrecision>
+            <VerticalAnglePrecision>0.00055555555556</VerticalAnglePrecision>
+            <EDMPrecision>0.002</EDMPrecision>
+            <EDMppm>2</EDMppm>
+            <InstrumentPrecisionsSource>FromInstrument</InstrumentPrecisionsSource>
+            <CenteringError>0</CenteringError>
+            <BacksightCenteringError>0.003</BacksightCenteringError>
+            <Model>S7 2 DR Plus</Model>
+            <Serial>37330675</Serial>
+            <FirmwareVersion>H2.8.17</FirmwareVersion>
+            <UserDefinedName>37330675</UserDefinedName>
+            <InstrumentAppliedHorizontalCollimation>0</InstrumentAppliedHorizontalCollimation>
+            <InstrumentAppliedVerticalCollimation>0</InstrumentAppliedVerticalCollimation>
+            <TrunionAxisTiltCorrection>0</TrunionAxisTiltCorrection>
+            <InstrumentAppliedAutolockHorizontalCollimation>0</InstrumentAppliedAutolockHorizontalCollimation>
+            <InstrumentAppliedAutolockVerticalCollimation>0</InstrumentAppliedAutolockVerticalCollimation>
+            <InstrumentAppliedEDMConstant>0</InstrumentAppliedEDMConstant>
+            <AtmosphericCorrectionCoefficient>293.682</AtmosphericCorrectionCoefficient>
+        </InstrumentRecord>
+
+        <PointRecord ID="00001860" TimeStamp="2023-09-13T11:18:08">
+            <Name>sloc048</Name>
+            <Code>n025</Code>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>300</North>
+                <East>4800</East>
+                <Elevation>0</Elevation>
+            </Grid>
+            <Notes>
+                <Note>Изменен 11:20:24 13/9/2023</Note>
+                <Note>Старые значения n035</Note>
+            </Notes>
+        </PointRecord>
+
+        <AtmosphereRecord ID="00001864" TimeStamp="2023-09-13T11:19:06">
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+            <PPM>71.095220066929</PPM>
+            <ApplyEarthCurvatureCorrection>true</ApplyEarthCurvatureCorrection>
+            <ApplyRefractionCorrection>true</ApplyRefractionCorrection>
+            <RefractionCoefficient>0.142</RefractionCoefficient>
+            <PressureInputMethod>KeyedIn</PressureInputMethod>
+            <ApplyPPMToRawDistances>true</ApplyPPMToRawDistances>
+        </AtmosphereRecord>
+
+        <StationRecord ID="00001865" TimeStamp="2023-09-13T11:19:06">
+            <StationName>sloc048</StationName>
+            <TheodoliteHeight>2</TheodoliteHeight>
+            <RawTheodoliteHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTheodoliteHeight>
+            <InstrumentID>00001859</InstrumentID>
+            <AtmosphereID>00001864</AtmosphereID>
+            <NumberOfBacksightMeasurements>1</NumberOfBacksightMeasurements>
+            <NumberOfBacksightPoints>1</NumberOfBacksightPoints>
+            <ScaleFactor>1</ScaleFactor>
+            <ScaleType>Fixed</ScaleType>
+            <ScaleFactorStandardError/>
+            <StationType>StationSetup</StationType>
+        </StationRecord>
+
+        <BackBearingRecord ID="00001866" TimeStamp="2023-09-13T11:19:06">
+            <StationRecordID>00001865</StationRecordID>
+            <Station>sloc048</Station>
+            <BackSight>n035</BackSight>
+            <Face1HorizontalCircle>263.57757809317</Face1HorizontalCircle>
+            <Face2HorizontalCircle/>
+            <OrientationCorrection>0</OrientationCorrection>
+            <OrientationCorrectionStandardError/>
+        </BackBearingRecord>
+
+        <TargetRecord ID="00001867" TimeStamp="2023-09-13T11:19:06">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>2.135</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2.135</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001868" TimeStamp="2023-09-13T11:19:06">
+            <Name>n035</Name>
+            <Code/>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>263.57757809317</HorizontalCircle>
+                <VerticalCircle>82.59777144</VerticalCircle>
+                <EDMDistance>4.229296</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.02791384151865</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00160098381162</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00118780469664</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001865</StationID>
+            <BackBearingID>00001866</BackBearingID>
+            <TargetID>00001867</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>299.52937027941</North>
+                <East>4795.8190124782</East>
+                <Elevation>0.41017545439888</Elevation>
+            </ComputedGrid>
+
+            <ObservationPolarDeltas>
+                <Azimuth/>
+                <HorizontalDistance>1702.0226110128</HorizontalDistance>
+                <VerticalDistance>-0.0939019607066</VerticalDistance>
+            </ObservationPolarDeltas>
+        </PointRecord>
+
+        <PointRecord ID="0000186d" TimeStamp="2023-09-13T11:19:58">
+            <Name>sloc048-n025</Name>
+            <Code>sloc048</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>263.69265078</HorizontalCircle>
+                <VerticalCircle>82.58580522</VerticalCircle>
+                <EDMDistance>4.225712</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.02004580163253</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00058070969655</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00089820678271</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001865</StationID>
+            <BackBearingID>00001866</BackBearingID>
+            <TargetID>00001867</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>299.5381723674</North>
+                <East>4795.8217313501</East>
+                <Elevation>0.41058932531616</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <TargetRecord ID="00001874" TimeStamp="2023-09-13T11:42:56">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00001875" TimeStamp="2023-09-13T11:42:57">
+            <Name>9338</Name>
+            <Code>sloc048</Code>
+            <Method>AverageMeasurements</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>57.27104946</HorizontalCircle>
+                <VerticalCircle>91.40053122</VerticalCircle>
+                <EDMDistance>8.806814</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00597987893852</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.0002484519975</VerticalCircleStandardError>
+                <EDMDistanceStandardError>0.00090230424491</EDMDistanceStandardError>
+                <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            </Circle>
+            <StationID>00001865</StationID>
+            <BackBearingID>00001866</BackBearingID>
+            <TargetID>00001874</TargetID>
+            <Pressure>750</Pressure>
+            <Temperature>20</Temperature>
+
+            <ComputedGrid>
+                <North>304.77409576536</North>
+                <East>4807.4281597428</East>
+                <Elevation>0.69468975167606</Elevation>
             </ComputedGrid>
         </PointRecord>
     </FieldBook>
@@ -52783,7 +53623,7 @@
 
         <Point>
             <ID>0000176f</ID>
-            <Name>1187</Name>
+            <Name>1287</Name>
             <Code>sloc040</Code>
             <SurveyMethod>Fix</SurveyMethod>
             <Classification>Normal</Classification>
@@ -52990,6 +53830,174 @@
                 <Elevation>0.71844825518351</Elevation>
             </Grid>
         </Point>
+
+        <Point>
+            <ID>00001803</ID>
+            <Name>sloc045</Name>
+            <Code>n035</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>100</North>
+                <East>4500</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001810</ID>
+            <Name>sloc045-n035</Name>
+            <Code>sloc045</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>100.04790699065</North>
+                <East>4493.0030836057</East>
+                <Elevation>0.29414978324943</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001815</ID>
+            <Name>8138</Name>
+            <Code>sloc045</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>149.72790964357</North>
+                <East>4447.9252225516</East>
+                <Elevation>0.8626845682885</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001821</ID>
+            <Name>sloc046</Name>
+            <Code>n025</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>300</North>
+                <East>4600</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000182e</ID>
+            <Name>sloc046-n025</Name>
+            <Code>sloc046</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>303.04882248268</North>
+                <East>4600.1790249793</East>
+                <Elevation>0.3048053062224</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001836</ID>
+            <Name>8338</Name>
+            <Code>sloc046</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>290.91835563431</North>
+                <East>4604.0575343057</East>
+                <Elevation>0.58800717235895</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001842</ID>
+            <Name>sloc047</Name>
+            <Code>n035</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>100</North>
+                <East>4700</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000184f</ID>
+            <Name>sloc047-n035</Name>
+            <Code>sloc047</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>100.0390994724</North>
+                <East>4693.3202341076</East>
+                <Elevation>0.27527193895817</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001854</ID>
+            <Name>9138</Name>
+            <Code>sloc047</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>160.1832496739</North>
+                <East>4663.6110455389</East>
+                <Elevation>0.84311508090407</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001860</ID>
+            <Name>sloc048</Name>
+            <Code>n025</Code>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>300</North>
+                <East>4800</East>
+                <Elevation>0</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000186d</ID>
+            <Name>sloc048-n025</Name>
+            <Code>sloc048</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>299.5381723674</North>
+                <East>4795.8217313501</East>
+                <Elevation>0.41058932531616</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00001875</ID>
+            <Name>9338</Name>
+            <Code>sloc048</Code>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>304.77409576536</North>
+                <East>4807.4281597428</East>
+                <Elevation>0.69468975167606</Elevation>
+            </Grid>
+        </Point>
     </Reductions>
 
     <Environment>
@@ -53057,11 +54065,11 @@
             </VerticalAdjustment>
             <CombinedScaleFactor>
                 <Location>
-                    <Latitude>20.057851895069</Latitude>
-                    <Longitude>47.497708326496</Longitude>
+                    <Latitude>19.786440404802</Latitude>
+                    <Longitude>47.487056252651</Longitude>
                     <Height>100</Height>
                 </Location>
-                <Scale>1.0012445537741</Scale>
+                <Scale>1.0012604640241</Scale>
             </CombinedScaleFactor>
             <TectonicPlate>
                 <Name>Unknown</Name>
