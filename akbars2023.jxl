@@ -31400,6 +31400,18 @@
             </ComputedGrid>
         </PointRecord>
 
+        <TargetRecord ID="000018a6" TimeStamp="2023-09-15T09:37:25">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
         <PointRecord ID="0000133a" TimeStamp="2023-09-08T14:05:41">
             <Name>277</Name>
             <Code>sloc019</Code>
@@ -31420,16 +31432,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018a6</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>204.38508056933</North>
-                <East>1909.8015087883</East>
-                <Elevation>-0.31868008668104</Elevation>
+                <North>204.38508021075</North>
+                <East>1909.8015079852</East>
+                <Elevation>0.72631991145631</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:25 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018ac" TimeStamp="2023-09-15T09:37:32">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000133e" TimeStamp="2023-09-08T14:06:23">
             <Name>278</Name>
@@ -31451,16 +31479,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018ac</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>210.03248742778</North>
-                <East>1918.2386974677</East>
-                <Elevation>-0.46262237866002</Elevation>
+                <North>210.03248660602</North>
+                <East>1918.2386959754</East>
+                <Elevation>0.58237761947734</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:32 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="0000189b" TimeStamp="2023-09-15T09:37:10">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001342" TimeStamp="2023-09-08T14:14:02">
             <Name>275</Name>
@@ -31482,16 +31526,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>0000189b</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>192.72874164435</North>
-                <East>1893.1377589533</East>
-                <Elevation>-0.26116558790572</Elevation>
+                <North>192.72874223826</North>
+                <East>1893.1377595157</East>
+                <Elevation>0.7838344130256</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:10 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018a1" TimeStamp="2023-09-15T09:37:18">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001346" TimeStamp="2023-09-08T14:15:02">
             <Name>276</Name>
@@ -31513,16 +31573,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018a1</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>197.6593728079</North>
-                <East>1902.2559105625</East>
-                <Elevation>-0.31486191972486</Elevation>
+                <North>197.6593729984</North>
+                <East>1902.2559103773</East>
+                <Elevation>0.73013808120646</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:18 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="00001896" TimeStamp="2023-09-15T09:37:02">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000134a" TimeStamp="2023-09-08T14:55:25">
             <Name>274</Name>
@@ -31544,16 +31620,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>00001896</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>185.71893699548</North>
-                <East>1885.7111351247</East>
-                <Elevation>-0.25446651364026</Elevation>
+                <North>185.71893816461</North>
+                <East>1885.7111362955</East>
+                <Elevation>0.79053348542842</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:02 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="00001891" TimeStamp="2023-09-15T09:36:54">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000134e" TimeStamp="2023-09-08T14:56:07">
             <Name>273</Name>
@@ -31575,16 +31667,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>00001891</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>180.81125656088</North>
-                <East>1876.9386117508</East>
-                <Elevation>-0.14982584159819</Elevation>
+                <North>180.81125813528</North>
+                <East>1876.9386136395</East>
+                <Elevation>0.89517416026445</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:36:54 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="0000188c" TimeStamp="2023-09-15T09:36:41">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001352" TimeStamp="2023-09-08T15:02:56">
             <Name>272</Name>
@@ -31606,16 +31714,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>0000188c</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>174.51410973509</North>
-                <East>1869.3279983638</East>
-                <Elevation>-0.20663838365676</Elevation>
+                <North>174.51411182309</North>
+                <East>1869.3280008764</East>
+                <Elevation>0.83836161913721</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:36:41 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="0000187b" TimeStamp="2023-09-15T09:36:33">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001356" TimeStamp="2023-09-08T15:03:31">
             <Name>271</Name>
@@ -31637,16 +31761,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>0000187b</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>168.22809245222</North>
-                <East>1861.4991388091</East>
-                <Elevation>-0.20523478266031</Elevation>
+                <North>168.22809505568</North>
+                <East>1861.4991419637</East>
+                <Elevation>0.8397652136144</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:36:33 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="0000187d" TimeStamp="2023-09-15T09:36:33">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>2.135</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>2.135</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000135a" TimeStamp="2023-09-08T15:10:26">
             <Name>270</Name>
@@ -31668,7 +31808,7 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>0000187d</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
@@ -31699,7 +31839,7 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>0000187d</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
@@ -31709,6 +31849,18 @@
                 <Elevation>-0.05716277008098</Elevation>
             </ComputedGrid>
         </PointRecord>
+
+        <TargetRecord ID="000018e0" TimeStamp="2023-09-15T09:38:59">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001362" TimeStamp="2023-09-08T15:48:24">
             <Name>1278</Name>
@@ -31730,16 +31882,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018e0</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>210.04033403641</North>
-                <East>1918.2434652381</East>
-                <Elevation>-0.4635727540202</Elevation>
+                <North>210.04033321466</North>
+                <East>1918.2434637445</East>
+                <Elevation>0.5814272459798</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:59 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018db" TimeStamp="2023-09-15T09:38:54">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001366" TimeStamp="2023-09-08T15:48:52">
             <Name>1277</Name>
@@ -31761,16 +31929,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018db</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>204.3906976925</North>
-                <East>1909.7988433377</East>
-                <Elevation>-0.31943257656935</Elevation>
+                <North>204.39069733391</North>
+                <East>1909.7988425355</East>
+                <Elevation>0.72556742343065</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:54 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018d6" TimeStamp="2023-09-15T09:38:47">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000136a" TimeStamp="2023-09-08T15:57:21">
             <Name>1276</Name>
@@ -31792,16 +31976,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018d6</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>197.65724880523</North>
-                <East>1902.2609544478</East>
-                <Elevation>-0.31459388899347</Elevation>
+                <North>197.65724899759</North>
+                <East>1902.2609542625</East>
+                <Elevation>0.73040610914389</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:47 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018d1" TimeStamp="2023-09-15T09:38:42">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000136e" TimeStamp="2023-09-08T15:57:59">
             <Name>1275</Name>
@@ -31823,16 +32023,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018d1</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>192.72779528156</North>
-                <East>1893.1395320453</East>
-                <Elevation>-0.26172084461134</Elevation>
+                <North>192.72779587733</North>
+                <East>1893.1395326076</East>
+                <Elevation>0.78327915538866</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:42 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018cc" TimeStamp="2023-09-15T09:38:34">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001372" TimeStamp="2023-09-08T16:40:21">
             <Name>1274</Name>
@@ -31854,16 +32070,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018cc</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>185.72344334863</North>
-                <East>1885.7108537396</East>
-                <Elevation>-0.25447822640272</Elevation>
+                <North>185.72344451776</North>
+                <East>1885.7108549097</East>
+                <Elevation>0.79052177545993</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:34 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018c7" TimeStamp="2023-09-15T09:38:29">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001376" TimeStamp="2023-09-08T16:41:09">
             <Name>1273</Name>
@@ -31885,16 +32117,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018c7</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>180.81624686272</North>
-                <East>1876.9315683916</East>
-                <Elevation>-0.15434427123383</Elevation>
+                <North>180.81624843525</North>
+                <East>1876.9315702809</East>
+                <Elevation>0.89065572876617</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:29 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018bc" TimeStamp="2023-09-15T09:38:11">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000137a" TimeStamp="2023-09-08T16:48:28">
             <Name>1271</Name>
@@ -31916,16 +32164,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018bc</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>168.22242019664</North>
-                <East>1861.502637004</East>
-                <Elevation>-0.20513549465609</Elevation>
+                <North>168.22242280011</North>
+                <East>1861.5026401565</East>
+                <Elevation>0.83986450348126</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:11 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018c2" TimeStamp="2023-09-15T09:38:22">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="0000137e" TimeStamp="2023-09-08T16:52:15">
             <Name>1272</Name>
@@ -31947,16 +32211,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018c2</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>174.51145930104</North>
-                <East>1869.3247891869</East>
-                <Elevation>-0.20842480537201</Elevation>
+                <North>174.5114613909</North>
+                <East>1869.3247916983</East>
+                <Elevation>0.83657519555931</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:22 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018b1" TimeStamp="2023-09-15T09:37:57">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001382" TimeStamp="2023-09-08T16:56:43">
             <Name>1269</Name>
@@ -31978,16 +32258,32 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018b1</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>156.33288717024</North>
-                <East>1847.1985110198</East>
-                <Elevation>-0.05700910877731</Elevation>
+                <North>156.33289074674</North>
+                <East>1847.1985153457</East>
+                <Elevation>0.98799089029136</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:37:57 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
+
+        <TargetRecord ID="000018b7" TimeStamp="2023-09-15T09:38:03">
+            <PrismType>CustomPrism</PrismType>
+            <PrismConstant>0.002</PrismConstant>
+            <TargetHeight>1.09</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.09</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
 
         <PointRecord ID="00001386" TimeStamp="2023-09-08T16:59:56">
             <Name>1270</Name>
@@ -32009,15 +32305,19 @@
             </Circle>
             <StationID>0000132e</StationID>
             <BackBearingID>0000132f</BackBearingID>
-            <TargetID>00001330</TargetID>
+            <TargetID>000018b7</TargetID>
             <Pressure>750</Pressure>
             <Temperature>20</Temperature>
 
             <ComputedGrid>
-                <North>161.70032748024</North>
-                <East>1853.7271544823</East>
-                <Elevation>-0.16483286983321</Elevation>
+                <North>161.70033061784</North>
+                <East>1853.7271582731</East>
+                <Elevation>0.88016712830415</Elevation>
             </ComputedGrid>
+            <Notes>
+                <Note>Изменен 9:38:03 15/9/2023</Note>
+                <Note>Старые парам. цели 2.135m +2mm</Note>
+            </Notes>
         </PointRecord>
 
         <InstrumentRecord ID="0000138b" TimeStamp="2023-09-09T09:25:39">
@@ -51305,9 +51605,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>204.38508056933</North>
-                <East>1909.8015087883</East>
-                <Elevation>-0.31868008668104</Elevation>
+                <North>204.38508021075</North>
+                <East>1909.8015079852</East>
+                <Elevation>0.72631991145631</Elevation>
             </Grid>
         </Point>
 
@@ -51319,9 +51619,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>210.03248742778</North>
-                <East>1918.2386974677</East>
-                <Elevation>-0.46262237866002</Elevation>
+                <North>210.03248660602</North>
+                <East>1918.2386959754</East>
+                <Elevation>0.58237761947734</Elevation>
             </Grid>
         </Point>
 
@@ -51333,9 +51633,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>192.72874164435</North>
-                <East>1893.1377589533</East>
-                <Elevation>-0.26116558790572</Elevation>
+                <North>192.72874223826</North>
+                <East>1893.1377595157</East>
+                <Elevation>0.7838344130256</Elevation>
             </Grid>
         </Point>
 
@@ -51347,9 +51647,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>197.6593728079</North>
-                <East>1902.2559105625</East>
-                <Elevation>-0.31486191972486</Elevation>
+                <North>197.6593729984</North>
+                <East>1902.2559103773</East>
+                <Elevation>0.73013808120646</Elevation>
             </Grid>
         </Point>
 
@@ -51361,9 +51661,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>185.71893699548</North>
-                <East>1885.7111351247</East>
-                <Elevation>-0.25446651364026</Elevation>
+                <North>185.71893816461</North>
+                <East>1885.7111362955</East>
+                <Elevation>0.79053348542842</Elevation>
             </Grid>
         </Point>
 
@@ -51375,9 +51675,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>180.81125656088</North>
-                <East>1876.9386117508</East>
-                <Elevation>-0.14982584159819</Elevation>
+                <North>180.81125813528</North>
+                <East>1876.9386136395</East>
+                <Elevation>0.89517416026445</Elevation>
             </Grid>
         </Point>
 
@@ -51389,9 +51689,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>174.51410973509</North>
-                <East>1869.3279983638</East>
-                <Elevation>-0.20663838365676</Elevation>
+                <North>174.51411182309</North>
+                <East>1869.3280008764</East>
+                <Elevation>0.83836161913721</Elevation>
             </Grid>
         </Point>
 
@@ -51403,9 +51703,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>168.22809245222</North>
-                <East>1861.4991388091</East>
-                <Elevation>-0.20523478266031</Elevation>
+                <North>168.22809505568</North>
+                <East>1861.4991419637</East>
+                <Elevation>0.8397652136144</Elevation>
             </Grid>
         </Point>
 
@@ -51445,9 +51745,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>210.04033403641</North>
-                <East>1918.2434652381</East>
-                <Elevation>-0.4635727540202</Elevation>
+                <North>210.04033321466</North>
+                <East>1918.2434637445</East>
+                <Elevation>0.5814272459798</Elevation>
             </Grid>
         </Point>
 
@@ -51459,9 +51759,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>204.3906976925</North>
-                <East>1909.7988433377</East>
-                <Elevation>-0.31943257656935</Elevation>
+                <North>204.39069733391</North>
+                <East>1909.7988425355</East>
+                <Elevation>0.72556742343065</Elevation>
             </Grid>
         </Point>
 
@@ -51473,9 +51773,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>197.65724880523</North>
-                <East>1902.2609544478</East>
-                <Elevation>-0.31459388899347</Elevation>
+                <North>197.65724899759</North>
+                <East>1902.2609542625</East>
+                <Elevation>0.73040610914389</Elevation>
             </Grid>
         </Point>
 
@@ -51487,9 +51787,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>192.72779528156</North>
-                <East>1893.1395320453</East>
-                <Elevation>-0.26172084461134</Elevation>
+                <North>192.72779587733</North>
+                <East>1893.1395326076</East>
+                <Elevation>0.78327915538866</Elevation>
             </Grid>
         </Point>
 
@@ -51501,9 +51801,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>185.72344334863</North>
-                <East>1885.7108537396</East>
-                <Elevation>-0.25447822640272</Elevation>
+                <North>185.72344451776</North>
+                <East>1885.7108549097</East>
+                <Elevation>0.79052177545993</Elevation>
             </Grid>
         </Point>
 
@@ -51515,9 +51815,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>180.81624686272</North>
-                <East>1876.9315683916</East>
-                <Elevation>-0.15434427123383</Elevation>
+                <North>180.81624843525</North>
+                <East>1876.9315702809</East>
+                <Elevation>0.89065572876617</Elevation>
             </Grid>
         </Point>
 
@@ -51529,9 +51829,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>168.22242019664</North>
-                <East>1861.502637004</East>
-                <Elevation>-0.20513549465609</Elevation>
+                <North>168.22242280011</North>
+                <East>1861.5026401565</East>
+                <Elevation>0.83986450348126</Elevation>
             </Grid>
         </Point>
 
@@ -51543,9 +51843,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>174.51145930104</North>
-                <East>1869.3247891869</East>
-                <Elevation>-0.20842480537201</Elevation>
+                <North>174.5114613909</North>
+                <East>1869.3247916983</East>
+                <Elevation>0.83657519555931</Elevation>
             </Grid>
         </Point>
 
@@ -51557,9 +51857,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>156.33288717024</North>
-                <East>1847.1985110198</East>
-                <Elevation>-0.05700910877731</Elevation>
+                <North>156.33289074674</North>
+                <East>1847.1985153457</East>
+                <Elevation>0.98799089029136</Elevation>
             </Grid>
         </Point>
 
@@ -51571,9 +51871,9 @@
             <Classification>Normal</Classification>
 
             <Grid>
-                <North>161.70032748024</North>
-                <East>1853.7271544823</East>
-                <Elevation>-0.16483286983321</Elevation>
+                <North>161.70033061784</North>
+                <East>1853.7271582731</East>
+                <Elevation>0.88016712830415</Elevation>
             </Grid>
         </Point>
 
@@ -54066,7 +54366,7 @@
             <CombinedScaleFactor>
                 <Location>
                     <Latitude>19.786440404802</Latitude>
-                    <Longitude>47.487056252651</Longitude>
+                    <Longitude>47.487056252652</Longitude>
                     <Height>100</Height>
                 </Location>
                 <Scale>1.0012604640241</Scale>
